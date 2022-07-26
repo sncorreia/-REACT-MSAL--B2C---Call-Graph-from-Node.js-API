@@ -1,0 +1,36 @@
+{
+    "credentials": {
+        "tenantName": "secorreb2c.onmicrosoft.com",
+        "clientID": "a0591496-e9bb-4cee-8483-6ad421919cc1"
+    },
+    "policies": {
+        "policyName": "B2C_1_SISU_20210723"
+    },
+    "metadata": {
+        "b2cDomain": "secorreb2c.b2clogin.com",
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/hello",
+            "scopes": [
+                "Access.ServiceA"
+            ]
+        }
+    },
+    "azuread": {
+        "clientID": "046f925c-e523-43f6-b49a-75f9284800e0",
+        "clientSecret": "",
+        "tenantId": "f3185df7-b18a-4c5e-9fec-e503d71e5254",
+        "aadEndpoint": "https://login.microsoftonline.com/",
+        "graphEndpoint": "https://graph.microsoft.com/"
+    }
+}
